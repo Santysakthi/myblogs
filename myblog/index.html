@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myblog</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    @media screen and (min-width:913px) {
+        div.flex-body {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        div.flex-right {
+            width: 600px;
+            margin-top: 20px;
+            margin-right: 50px;
+            margin-left: 50px;
+        }
+
+        div.flex-left {
+            width: 1000px;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+    }
+
+    @media screen and (max-width:913px) {
+        div.flex-right {
+            margin: 20px;
+            margin-left: 30px;
+        }
+
+        div.flex-left {
+            margin: 20px;
+            margin-left: 30px;
+        }
+    }
+
+    @media screen and (min-width:600px) {
+        .flex-body {
+            margin: auto;
+        }
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1>MY BLOGS</h1>
+        <h4>Welcome to my Blog of unknown</h4>
+    </header>
+    <div class="flex-body">
+        <div class="flex-left">
+            <div class="sec-one">
+                <div class="sec-one-img">
+                    <img src="./imgs/sec-one.jpg" alt="nature image" width="100%">
+                </div>
+                <div class="sec-one-cons" style="padding: 10px;">
+                    <h2>MY VLOGS</h2>
+                    <h4>Title Description <span>date</span> </h4>
+                    <p>this are my vlogsMauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed
+                        mattis
+                        nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at.
+                        Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum.
+                        Sed
+                        vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                    </p>
+                    <button class="read">Read more</button>
+                </div>
+            </div>
+            <div class="sec-two">
+                <div>
+                    <img src="./imgs/sec-two.jpg" alt="nature image" width="100%" height="250px">
+                </div>
+                <div class="sec-two-con" style="padding: 10px;">
+                    <h2>TITLE</h2>
+                    <p>content</p>
+                    <p>Place which i visitedthis are my vlogsMauris neque quam, fermentum ut nisl vitae, convallis
+                        maximus
+                        nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan
+                        tortor
+                        cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut
+                        rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non
+                        fringilla
+                    </p>
+                    <button class="read">Read more</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex-right">
+            <div class="sec-three">
+                <div>
+                    <img src="./imgs/sec-three.jpg" alt="myphoto" width="100%">
+                </div>
+                <div class="sec-three-con" style="padding: 10px;">
+                    <h2>MY NAME</h2>
+                    <p>contentthis are my vlogsMauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed
+                        mattisnunc id lorem euismod placerat. Vivamus porttitor magna enim Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Error est placeat totam rem quidem, similique odit, voluptate
+                        libero soluta cumque vel. Molestiae voluptatum accusantium soluta sunt perferendis tenetur est
+                        illum! </p>
+                </div>
+            </div>
+
+            <div class="sec-four">
+                <div>
+                    <h2>PLACE VISITED</h2>
+                </div>
+                <ul>
+                    <li>
+                        <img src="./imgs/li-one.jpeg" alt="one-img" style="width: 50px;" class="img-left">
+                        <div><span class="one">Messisipe</span> <br>
+                            <span>A longgside bridge</span>
+                        </div>
+                    </li>
+                    <li><img src="./imgs/li-two.jpeg" alt="one-img" style="width: 50px;" class="img-left">
+                        <div><span class="one">Woundercap</span> <br>
+                            <span>oneshot mountain range</span>
+                        </div>
+                    </li>
+                    <li><img src="./imgs/li-three.jpeg" alt="one-img" style="width: 50px;" class="img-left">
+                        <div><span class="one">Doewncity</span> <br>
+                            <span>green vally pits</span>
+                        </div>
+                    </li>
+                    <li><img src="./imgs/li-four.jpeg" alt="one-img" style="width: 50px;" class="img-left">
+                        <div><span class="one">Moncure</span> <br>
+                            <span>rocky damer dim</span>
+                        </div>
+                    </li>
+                    <li><img src="./imgs/li-five.jpeg" alt="one-img" style="width: 50px;" class="img-left">
+                        <div><span class="one">Aspalvty</span> <br>
+                            <span>dospeci bolicdia</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="sec-five">
+                <div>
+                    <h2>TAGS</h2>
+                </div>
+                <div class="span-gaps">
+                    <span>shadow</span>
+                    <span class="helloworld">helloworld</span>
+                    <span>shadow</span>
+                    <span>shadow</span>
+                    <span>shadow</span>
+                    <span>shadow</span>
+                    <span>shadow</span>
+                    <span>shadow</span>
+                    <span>shadow</span>
+                    <span>shadow</span>
+                    <span>shadow</span>
+                    <span>shadow</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-class">
+        <footer>
+            <div class="foot-btn"> <button class="Previousbtn">
+                    << Previous </button>
+                        <button class="nextbtn">Next >></button></div>
+            <p>@copyrights 2024</p>
+        </footer>
+    </div>
+</body>
+
+</html>

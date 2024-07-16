@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(235, 235, 235);
+    min-width: 600px;
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+}
+
+div.sec-one {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px;
+}
+
+div.sec-two {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 30px
+}
+
+div.sec-three {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.sec-four {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.sec-five {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+    text-align: justify;
+}
+
+.sec-four {
+    height: inherit;
+}
+
+h1 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.sec-four ul li {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    padding: 5px;
+}
+
+li:hover {
+    background-color: rgb(107, 104, 104);
+}
+
+.one {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-left {
+    margin: 5px;
+    margin-right: 10px;
+}
+
+div.span-gaps {
+    padding: 10px;
+}
+
+div.span-gaps span {
+    padding: 6px;
+    margin-bottom: 3px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+div.footer-class {
+    height: 150px;
+    background-color: rgb(68, 66, 66);
+}
+
+.nextbtn {
+    background-color: #000000;
+    color: wheat;
+    border: none;
+    padding: 15px;
+
+}
+
+.Previousbtn {
+    background-color: rgb(37, 36, 36);
+    color: wheat;
+    border: none;
+    padding: 15px;
+}
+
+div.foot-btn {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+button.read {
+    padding: 10px;
+    border: none;
+    background-color: rgb(175, 175, 166);
+}
+
+.read:hover {
+    background-color: #111010;
+    color: aliceblue;
+}
+
+span.helloworld {
+    background-color: #000000;
+    color: white;
+}
+
+.footer-class p {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
